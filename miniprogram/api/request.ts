@@ -5,7 +5,7 @@ export const get = (uri: string) => {
         title: "加载中"
     })
     // 返回一个 promise对象 resolve:成功，reject:失败
-    return new Promise((resolve, reject) => {
+    return new Promise<any>((resolve, reject) => {
         wx.request({
             url: baseUrl + uri,
             method: 'GET',

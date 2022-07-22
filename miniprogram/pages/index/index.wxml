@@ -1,0 +1,28 @@
+<!-- 外层 -->
+<view class="page"> 
+    <view class="header">
+        <!-- 背景 -->
+        <image class="header-bg" src="../../images/header-bg.png" />
+        <!-- 用户消息盒子 -->
+        <view class="user-box">
+            <!-- 头像 -->
+            <view class="avatar-box">
+                <view>村</view>
+            </view>
+            <!-- 消息提示组件 -->
+            <view class="notification-box">
+                <image class="bell-icon" src="../../images/bell.svg"></image>
+                <image class="dot-icon" src="../../images/dot.svg"></image>
+                <view class="dot-number">3</view>
+            </view>
+        </view>
+    </view>
+
+    <scroll-view class="category-banner-list" scroll-x>
+        <view style="{{ 'width: ' + (categoryBannerList.length * 320 + 40) + 'rpx' }}">
+            <view class="category-box" wx:for="{{categoryBannerList}}" wx:key="index">
+                <image src="{{ item.image }}"></image>
+            </view>
+        </view>
+    </scroll-view>
+</view>

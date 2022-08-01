@@ -1,0 +1,18 @@
+// musician-banner
+@import '../../style/varibles.scss';
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50rpx;
+    margin-bottom: 40rpx;
+    .title {
+        font-size: 44rpx;
+        color: $text-active-color;
+        line-height: 52rpx;
+    }
+    .more {
+        color: $primary-color;
+        font-size: 28rpx;
+    }
+}

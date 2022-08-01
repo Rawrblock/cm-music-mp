@@ -15,6 +15,88 @@ Page({
             {
                 image: '../../images/recommend-playlist.png'
             }
+        ],
+        musicianBannerList: [
+            {
+                id: 111,
+                name: 'Rihanna',
+                photo: '../../images/musician-photo.png',
+                category: "流行音乐"
+            },
+            {   
+                id: 222,
+                name: 'Post Malone',
+                photo: '../../images/musician-photo.png',
+                category: "流行音乐"
+            },
+            {   
+                id: 333,
+                name: 'Post Malone',
+                photo: '../../images/musician-photo.png',
+                category: "流行音乐"
+            },
+            {
+                id: 111,
+                name: 'Rihanna',
+                photo: '../../images/musician-photo.png',
+                category: "流行音乐"
+            },
+            {   
+                id: 222,
+                name: 'Post Malone',
+                photo: '../../images/musician-photo.png',
+                category: "流行音乐"
+            },
+            {
+                id: 111,
+                name: 'Rihanna',
+                photo: '../../images/musician-photo.png',
+                category: "流行音乐"
+            },
+            {   
+                id: 222,
+                name: 'Post Malone',
+                photo: '../../images/musician-photo.png',
+                category: "流行音乐"
+            },
+            
+        ],
+        playList: [
+            {
+                image: '../../images/album.png',
+                title: 'Led Zeppelin IV',
+                description: "LED ZEPPELIN"
+            },
+            {
+                image: '../../images/album.png',
+                title: 'Led Zeppelin IV',
+                description: "LED ZEPPELIN"
+            },
+            {
+                image: '../../images/album.png',
+                title: 'Led Zeppelin IV',
+                description: "LED ZEPPELIN"
+            },
+            {
+                image: '../../images/album.png',
+                title: 'Led Zeppelin IV',
+                description: "LED ZEPPELIN"
+            },
+            {
+                image: '../../images/album.png',
+                title: 'Led Zeppelin IV',
+                description: "LED ZEPPELIN"
+            },
+            {
+                image: '../../images/album.png',
+                title: 'Led Zeppelin IV',
+                description: "LED ZEPPELIN"
+            },
+            {
+                image: '../../images/album.svg',
+                title: 'Led Zeppelin IV',
+                description: "LED ZEPPELIN"
+            },
         ]
     },
 

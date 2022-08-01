@@ -1,0 +1,36 @@
+@import '../../style/varibles.scss';
+.album-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280rpx;
+    overflow: hidden;
+
+    .image {
+        width: 280rpx;
+        height: 280rpx;
+        border-radius: 30rpx;
+        overflow: hidden;
+    }
+
+    .title {
+        // max-width: 150rpx;
+        margin-top: 20rpx;
+        font-size: 32rpx;
+        line-height: 36rpx;
+        color: $text-active-color;
+        overflow: hidden;
+        // text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .description {
+        max-width: 150rpx;
+        margin-top: 10rpx;
+        font-size: 24rpx;
+        color: $text-color;
+        line-height: 30rpx;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}

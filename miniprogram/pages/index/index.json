@@ -1,3 +1,9 @@
 {
-    "usingComponents": {}
+    "usingComponents": {
+        "scrollable-section": "../../components/scrollable-section",
+        "musician-card": "../../components/musician-card",
+        "album-card": "../../components/album-card",
+        "title-banner": "../../components/title-banner",
+        "music-list": "../../components/music-list"
+    }
 }
